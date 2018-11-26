@@ -1,7 +1,29 @@
+/*Encabezado de la página */
+
+
+*{margin:0 ; padding:0;}
+#logo{
+   width:100%;
+   overflow:hidden;
+   background:#252932;
+   margin-bottom:20px;
+ }
+ 
+ .wrapper {
+   width:90%;
+   max-width:1000px;
+   margin:auto;
+   overflow:hidden;
+ }
+header.logo {
+  columns: #f2f2f2;
+  font-size:50px;
+}
 
 
 
 
+/* Style de las cajas de texto en el cifrado */
 #escribeMsj
 {
   width:30% 
