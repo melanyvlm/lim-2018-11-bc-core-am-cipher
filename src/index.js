@@ -1,17 +1,13 @@
 
 const cypher = document.getElementById("cypher");  
 const decypher= document.getElementById("decypher");
-function traerMensaje(cadena){
-    const newPalabra = cadena
-    return newPalabra
- }
  
  cypher.addEventListener("click" , () => {
      const escribeMsj =document.getElementById("escribeMsj").value;
      const offset1 = parseInt(document.getElementById("num1").value);
-     const resultado = cipherencode(escribeMsj, offset1);
+     const resultado = cipher.encode(escribeMsj, offset1);
     //  respuesta.innerHTML= (escribeMsj); 
-     respuesta.innerHTML =resultado;
+     document.getElementById("respuesta").innerHTML =resultado;
 
  });
 
@@ -19,10 +15,8 @@ function traerMensaje(cadena){
 
      const escribeMsj =document.getElementById("escribeMsj").value;
      const offset1 = parseInt(document.getElementById("num1").value);
-     const resultado = decode(escribeMsj, offset1);
-     respuesta.innerHTML =resultado;
-
- 
+     const resultado = cipher.decode(escribeMsj, offset1);
+     document.getElementById("respuesta").innerHTML =resultado;
 });
 
 

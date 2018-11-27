@@ -16,11 +16,9 @@ describe('cipher', () => {
 
     it('debería retornar "C D" para "A B" con offset 2' , () => {
       assert.equal(cipher.encode("A B", 2), "C D" );
-    }); 
+    }) 
     
   });
-
-});
 
   describe('cipher.decode', () => {
 
@@ -32,8 +30,9 @@ describe('cipher', () => {
       assert.equal(cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG",33), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
     it('debería retornar "A B" para "C D" con offset 2' , () => {
-      assert.equal(cipher.encode("C D", 2), "A B");
-    });
+      assert.equal(cipher.encode("C D", 2), "A B" );
+  });
+
   /* describe('cipher.createCipherWithOffset', () => {
 
     it('debería ser una función', () => {
@@ -43,5 +42,5 @@ describe('cipher', () => {
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
 
   });*/
-
-    });
+  
+});

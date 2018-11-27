@@ -51,7 +51,7 @@ form {
   width: 600px;
   margin:auto;
   background: rgba(107, 81, 98, 0.301);
-  padding:20px 20px;
+  padding:30px 20px;
   box-sizing: border-box;
   margin-top:20px;
   
@@ -95,8 +95,6 @@ margin:0 ; padding:0;
   width: 100px;
   height: 40px;
   border-radius: 10px;
- 
-
 }
 #decypher{
   background: #9c3bdd;
@@ -105,10 +103,8 @@ margin:0 ; padding:0;
   width: 100px;
   height: 40px;
   border-radius: 10px;
-
- 
+margin-right: auto;
 }
-
 
 @media (max-width:480px)
 {
