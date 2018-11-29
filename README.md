@@ -1,4 +1,12 @@
-# Cifrado César
+# Cifrado César (Proyecto "In My Feelings)
+
+#Preámbulo
+
+¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo? o ¿quieres decir cómo te sientes pero te da miedo expresarte? 
+
+Esta página web interactiva te ayudará en este proceso para confesarte y/o expresarte de manera libre de manera que al enviarlo ( gracias al Cifrado Cesar) podrás escribir lo que desees y cifrarlo! Así al enviarlo la otra persona tendrá que descifrarlo! Tentador , ¿cierto? Vamos a probarlo!
+
+#¿Qué es el Cifrado Cesar?
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -13,53 +21,26 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
-
-## Resumen del proyecto
-
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de ejemplo:
-
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
-
-
 ## Consideraciones generales
 
 - Este proyecto se debe resolver de manera individual.
 - El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
 - Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el primer Sprint (una semana) y al  final, trata de fijar un estimado de cuándo lo terminarás.
 
-## Objetivos de aprendizaje
+## Definición del producto
 
-En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
+### ¿Quiénes son los principales usuarios de producto?
 
-- Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-- Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
-- Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
-- Actualizar la pantalla con los resultados (**manipular el DOM**).
-- **Implementar funciones** dada una descripción de su comportamiento.
-- Verificar tu implementación con **pruebas unitarias**.
-- Entender las **necesidades del usuario** y cómo proponer una solución.
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+Este producto va dirigido a todo público ( Niños mayores de 8 años - personas mayores de 65 años) que desean expresarse pero les resulte difícil y puedan hacerlo por medio de un cifrado así la otra persona al ver el mensaje pueda descrifarlo y hacerlo el expresar sea más divertido y no tan vergonzoso . 
 
-## Parte Obligatoria
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
+### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Este producto se enfoca principalmente en darle una experiencia "fresca" al usuario en donde el objetivo del usuario es poder escribir lo que siente y al hacerlo pueda cifrarlo(codificar) , enviar el texto cifrado con el desplazamiento introducido a una persona y que lo descifre utilizando el mismo producto.
 
-#### Definición del producto
+###¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
-
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Este producto ayuda al usuario a expresar de manera dinámica para poder expresar y así disminuir los nervios que se siente al decir lo que sientes. 
 
 #### Interfaz de usuario (UI)
 
