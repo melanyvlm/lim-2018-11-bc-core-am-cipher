@@ -9,7 +9,7 @@
  header{
 width: 100%;
 height:50px;
-background:rgb(70, 76, 110);
+background:rgba(76, 68, 190, 0.63);
 
 top:0;
 left:0;
@@ -17,15 +17,70 @@ z-index:100;
 }
 
 h1{
-  color: rgb(53, 31, 31);
+  color: rgb(37, 35, 35);
   font-family: 'Gloria Hallelujah', cursive;
+
+
 }
 
+  
  .contenedor{
  width: 98%;
  margin:auto;
 }
 
+/* Bienvenida */
+#Bienvenida {
+text-align: center;
+padding:50px ;
+font-family: 'Carter One', cursive;
+font-size: 35px;
+color: rgb(0, 0, 0);
+border-radius: 6px;
+
+
+}
+
+#txtbnco {
+  color:#fff;
+}
+
+/* Diseño de página de inicio */
+
+#intro{
+
+  width: 600px;
+  margin:auto;
+  background:rgb(255, 255, 255);
+  padding:30px 20px;
+  box-sizing: border-box;
+  margin-top:20px;
+  border:10px  solid #524e4e;
+  color:rgb(0, 0, 0);
+  
+  border-radius: 6px;
+    margin-top:50px;
+    position:relative;
+}
+
+#iniciointro{
+
+  width:100%;
+  margin-bottom: 20px;
+  padding:15px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border:none;
+  
+
+}
+
+/* introducciones*/
+#introducciones
+
+{
+    text-align:center;
+}
 /* Cajas de texto*/
 
 .texto{
@@ -34,14 +89,11 @@ h1{
 }
 
 
-
-
 /* body */
 body {
 
   background-image: url(imagen/triangulo.jpg);
   background-size:100vw 100vh;
-  background-attachment: fixed;
   margin:0;
 
 }
@@ -49,10 +101,12 @@ body {
 form {
   width: 600px;
   margin:auto;
-  background: rgba(107, 81, 98, 0.301);
+  background: rgb(255, 255, 255);
   padding:30px 20px;
   box-sizing: border-box;
   margin-top:20px;
+  font-family: 'Frank Ruhl Libre', serif;
+  background-image:url(imagen/borroso.jpg);
   
   border-radius: 6px;
     margin-top:50px;
@@ -61,7 +115,7 @@ form {
  
 
 h3 {
-color: rgb(248, 248, 248);
+color: rgb(246, 234, 234);
 text-align: center;
 font-size:30px;
 margin-bottom: 20px;
@@ -71,7 +125,7 @@ input,textarea {
 
   width:100%;
   margin-bottom: 20px;
-  padding:15px;
+  padding:20px;
   box-sizing: border-box;
   font-size: 17px;
   border:none;
@@ -90,19 +144,22 @@ margin:0 ; padding:0;
 #cypher{
   background: rgb(236, 137, 55);
   color:#fff;
-  padding:10px;
+  padding:20px;
   width: 100px;
   height: 40px;
   border-radius: 10px;
+  margin-left:25;
+  
 }
 #decypher{
   background: #9c3bdd;
   color:#fff;
-  padding:10px;
+  padding:20px ;
   width: 100px;
   height: 40px;
   border-radius: 10px;
-margin-right: auto;
+margin-left: auto;
+  
 }
 
 @media (max-width:480px)
@@ -111,9 +168,13 @@ margin-right: auto;
     width:100%;
 
   }
+#intro {
+
+  width:100%;
 }
 
 section{
   width:100%;
   margin-bottom:25px;
+}
 }

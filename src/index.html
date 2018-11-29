@@ -5,6 +5,8 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" /><div id="root"></div>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Frank+Ruhl+Libre|Kaushan+Script|Nanum+Pen+Script" rel="stylesheet">
   </head>
   <body>  
     <header>
@@ -12,13 +14,27 @@
         <h1> IN MY FEELINGS</h1>
     </header>
                       <!--<div class="expresate "id="expresate">-->
-             
-                  <form action="">
-                      <h3>EXPRESA LO QUE SIENTES </h3> 
+        <p id="Bienvenida" >¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo?</p>  
+           <form id="intro" >   
+
+             <div id="iniciointro" >        
+    
+      <p id ="introducciones"> INSTRUCCIONES </p>         
+      <p> 1.- Escribe un texto </p>
+      <p> 2.-Ingresa el número de espacios que desees para que se corran las letras que ingreses , a esto se le llama desplazamiento.</p>
+      <p>  3.-Listo! Haz click en cifrar y saldrá tu texto cifrado! o descifra un texto que alguien te envió.</p>
+
+             </div>
+            </form>          
+
+                  <form action="" id="preguntas">
+                      <h3>EXPRESA LO QUE SIENTES </h3>
+                      <p id="txtbnco">INTRODUCE EL DESPLAZAMIENTO</p> 
                       <input type="number" id="num1" value="0">
-                     
+
+                  <p id="txtbnco">ESCRIBE TU DECLARACIÓN </p>
                   <textarea class="texto " id="escribeMsj" placeholder="Escribe aquí"></textarea>
-                    <button type="button" id="cypher">CIFRAR</button>
+                    <button type="button" id="cypher">CIFRAR</button> 
                     <button type="button" id="decypher">DESCIFRAR</button>
                    <textarea  id="respuesta" class="texto" placeholder="Texto Cifrado!"></textarea>        
                    
