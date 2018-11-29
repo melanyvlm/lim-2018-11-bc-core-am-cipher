@@ -1,12 +1,12 @@
-# Cifrado César (Proyecto "In My Feelings)
+# Cifrado César (Proyecto "In My Feelings")
 
-#Preámbulo
+##Preámbulo
 
 ¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo? o ¿quieres decir cómo te sientes pero te da miedo expresarte? 
 
 Esta página web interactiva te ayudará en este proceso para confesarte y/o expresarte de manera libre de manera que al enviarlo ( gracias al Cifrado Cesar) podrás escribir lo que desees y cifrarlo! Así al enviarlo la otra persona tendrá que descifrarlo! Tentador , ¿cierto? Vamos a probarlo!
 
-#¿Qué es el Cifrado Cesar?
+##¿Qué es el Cifrado Cesar?
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
