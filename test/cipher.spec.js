@@ -28,10 +28,7 @@
      it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', () => {
        assert.equal(cipher.decode("HIJKLMNOPQRSTUVWXYZABCDEFG",33), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
      });
-     it('debería retornar "A B" para "C D" con offset 2' , () => {
-       assert.equal(cipher.encode("C D", 2), "A B" );
          });
-     });
     
    });
 

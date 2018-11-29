@@ -41,11 +41,19 @@ border-radius: 6px;
 
 }
 
-#txtbnco {
+.txtbnco {
   color:#fff;
 }
 
 /* Diseño de página de inicio */
+
+#dvpreguntas
+{
+  display:none;
+}
+
+
+
 
 #intro{
 
@@ -57,23 +65,12 @@ border-radius: 6px;
   margin-top:20px;
   border:10px  solid #524e4e;
   color:rgb(0, 0, 0);
-  
   border-radius: 6px;
     margin-top:50px;
     position:relative;
 }
 
-#iniciointro{
 
-  width:100%;
-  margin-bottom: 20px;
-  padding:15px;
-  box-sizing: border-box;
-  font-size: 17px;
-  border:none;
-  
-
-}
 
 /* introducciones*/
 #introducciones
@@ -88,6 +85,24 @@ border-radius: 6px;
   padding: 10px;
 }
 
+/* Boton de empezar */
+
+#clickea
+
+{
+
+background: rgb(226, 69, 69);
+  color:#fff;
+  padding:20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left:25;
+  
+}
+
+
+
 
 /* body */
 body {
@@ -99,7 +114,7 @@ body {
 }
 
 form {
-  width: 600px;
+  width: 550px;
   margin:auto;
   background: rgb(255, 255, 255);
   padding:30px 20px;
@@ -121,13 +136,24 @@ font-size:30px;
 margin-bottom: 20px;
 
 }
-input,textarea {
+
+input {
+  width: 15%;
+  margin-bottom: 10px;
+  padding:10px;
+  box-sizing: border-box;
+  font-size: 19px;
+  border:none;
+
+}
+
+textarea {
 
   width:100%;
   margin-bottom: 20px;
-  padding:20px;
+  padding:50px;
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 19px;
   border:none;
 }
 
@@ -139,26 +165,43 @@ margin:0 ; padding:0;
 
 }
 
+#volver{
 
-
-#cypher{
-  background: rgb(236, 137, 55);
+  background: rgb(61, 92, 250);
   color:#fff;
   padding:20px;
   width: 100px;
   height: 40px;
   border-radius: 10px;
-  margin-left:25;
+  margin-left:auto;
+  
+
+}
+button {
+
+  text-align: center;
+  vertical-align: middle;
+}
+#cypher{
+  background: rgb(250, 61, 61);
+  color:#fff;
+  padding:20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: auto;
+  
+  
   
 }
 #decypher{
-  background: #9c3bdd;
+  background:rgba(255, 243, 76, 0.823);
   color:#fff;
   padding:20px ;
   width: 100px;
   height: 40px;
   border-radius: 10px;
-margin-left: auto;
+  margin-right:auto;
   
 }
 
@@ -172,6 +215,7 @@ margin-left: auto;
 
   width:100%;
 }
+
 
 section{
   width:100%;

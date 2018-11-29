@@ -10,39 +10,44 @@
   </head>
   <body>  
     <header>
-        <div class="contenedor"></div>     
+        <div class="contenedor" ></div>     
         <h1> IN MY FEELINGS</h1>
     </header>
                       <!--<div class="expresate "id="expresate">-->
-        <p id="Bienvenida" >¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo?</p>  
-           <form id="intro" >   
+      <div id="dvpgnicio">
+          <p id="Bienvenida" >¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo?</p>  
+          
+          
+          <form id="intro" >   
 
-             <div id="iniciointro" >        
-    
-      <p id ="introducciones"> INSTRUCCIONES </p>         
-      <p> 1.- Escribe un texto </p>
-      <p> 2.-Ingresa el número de espacios que desees para que se corran las letras que ingreses , a esto se le llama desplazamiento.</p>
-      <p>  3.-Listo! Haz click en cifrar y saldrá tu texto cifrado! o descifra un texto que alguien te envió.</p>
+             <p id ="introducciones"> INSTRUCCIONES </p>         
+             <p> 1.- Escribe un texto </p>
+             <p> 2.-Ingresa el número de espacios que desees para que se corran las letras que ingreses , a esto se le llama desplazamiento.</p>
+             <p>  3.-Listo! Haz click en cifrar y saldrá tu texto cifrado! o descifra un texto que alguien te envió.</p>
+  
+       <center><button  type="button" id="clickea">Exprésate</button></center> 
+          
+          </form>            
+        </div> 
 
-             </div>
-            </form>          
-
-                  <form action="" id="preguntas">
-                      <h3>EXPRESA LO QUE SIENTES </h3>
-                      <p id="txtbnco">INTRODUCE EL DESPLAZAMIENTO</p> 
-                      <input type="number" id="num1" value="0">
-
-                  <p id="txtbnco">ESCRIBE TU DECLARACIÓN </p>
+        <div id="dvpreguntas">
+              <form action="" id="pregus">
+                 <h3>EXPRESA LO QUE SIENTES </h3>
+                  <p class="txtbnco">INTRODUCE EL DESPLAZAMIENTO  <input type="number" id="num1" value="0"></p> 
+                  <p class="txtbnco">ESCRIBE TU DECLARACIÓN </p>
                   <textarea class="texto " id="escribeMsj" placeholder="Escribe aquí"></textarea>
                     <button type="button" id="cypher">CIFRAR</button> 
                     <button type="button" id="decypher">DESCIFRAR</button>
-                   <textarea  id="respuesta" class="texto" placeholder="Texto Cifrado!"></textarea>        
+                    <p class="txtbnco"> DESCUBRE TU TEXTO CIFRADO O DESCIFRA UN TEXTO  </p>
+                   <textarea  id="respuesta" class="texto" placeholder="Texto Cifrado!"></textarea> 
+                  <center><button onclick="volver" id="volver">VOLVER</button> <a href="index.html"></a>
+                  </center>
                    
-         
+                   
                   </form> 
-      
-            
-              <footer> HANla</footer>
+                </div>
+
+              <footer id ="foot">  </footer>
        
           <script src="cipher.js"></script>
           <script src="index.js"></script>
