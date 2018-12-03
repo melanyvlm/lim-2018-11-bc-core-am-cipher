@@ -14,7 +14,7 @@ clickea.addEventListener("click", () => {
  cypher.addEventListener("click" , () => {
      const escribeMsj =document.getElementById("escribeMsj").value;
      const offset1 = parseInt(document.getElementById("num1").value);
-     const resultado = cipher.encode(escribeMsj, offset1);
+     const resultado = cipher.encode(offset1,escribeMsj);
     //  respuesta.innerHTML= (escribeMsj); 
      document.getElementById("respuesta").innerHTML =resultado;
 
@@ -24,7 +24,7 @@ clickea.addEventListener("click", () => {
 
      const escribeMsj =document.getElementById("escribeMsj").value;
      const offset1 = parseInt(document.getElementById("num1").value);
-     const resultado = cipher.decode(escribeMsj, offset1);
+     const resultado = cipher.decode(offset1,escribeMsj);
      document.getElementById("respuesta").innerHTML =resultado;
 });
 
