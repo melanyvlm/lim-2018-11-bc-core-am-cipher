@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: function (text, offset){
+  encode: function (offset,text){
     let resultado;
     let codigoAc;
   
@@ -19,7 +19,7 @@ window.cipher = {
   return textoCifrado;
 },
 
-decode: function (text,offset){
+decode: function (offset,text){
   let numerador = 0;
   let resultado;
   let codigoAc;
