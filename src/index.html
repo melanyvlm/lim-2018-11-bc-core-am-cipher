@@ -2,46 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" /><div id="root"></div>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Kaushan+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Carter+One|Frank+Ruhl+Libre|Kaushan+Script|Nanum+Pen+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
+    <title>Caesar Cipher</title>
   </head>
   <body>  
+
     <header>
-        <div class="contenedor" ></div>     
         <h1> IN MY FEELINGS</h1>
     </header>
-                      <!--<div class="expresate "id="expresate">-->
-      <div id="dvpgnicio">
-          <p id="Bienvenida" >¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo?</p>  
-          
-          
-          <form id="intro" >   
 
-             <p id ="introducciones"> INSTRUCCIONES </p>         
+      <div id="intropage">
+          <p id="title">¿Llevas un tiempo pensando en confesar tus sentimientos a esa persona tan especial, pero no sabes cómo ni cuándo?</p>  
+          
+          
+          <form id="form-intro" >   
+
+             <p id ="instrucciones" class="center"> INSTRUCCIONES </p>         
              <p> 1.- Escribe un texto </p>
              <p> 2.-Ingresa el número de espacios que desees para que se corran las letras que ingreses , a esto se le llama desplazamiento.</p>
              <p>  3.-Listo! Haz click en cifrar y saldrá tu texto cifrado! o descifra un texto que alguien te envió.</p>
   
-       <center><button  type="button" id="clickea">Exprésate</button></center> 
+      <button  type="button" id="btn-express">Exprésate</button> 
           
           </form>            
         </div> 
 
-        <div id="dvpreguntas">
-              <form action="" id="pregus">
+        <div id="form-express">
+              <form action="form-expression">
                  <h3>EXPRESA LO QUE SIENTES </h3>
-                  <p class="txtbnco">INTRODUCE EL DESPLAZAMIENTO  <input type="number" id="num1" value="0"></p> 
+                  <p class="txtbnco">INTRODUCE EL DESPLAZAMIENTO  <input type="number" id="offset-input" value="0"></p> 
                   <p class="txtbnco">ESCRIBE TU DECLARACIÓN </p>
-                  <textarea class="texto " id="escribeMsj" placeholder="Escribe aquí"></textarea>
-                    <button type="button" id="cypher">CIFRAR</button> 
-                    <button type="button" id="decypher">DESCIFRAR</button>
-                    <p class="txtbnco"> DESCUBRE TU TEXTO CIFRADO O DESCIFRA UN TEXTO  </p>
-                   <textarea  id="respuesta" class="texto" placeholder="Texto Cifrado!"></textarea> 
-                  <center><button onclick="volver" id="volver">VOLVER</button> <a href="index.html"></a>
-                  </center>
+                  <textarea class="texto " id="txt-initial" placeholder="Escribe aquí"></textarea>
+                    <button type="button" id="btn-cypher">CIFRAR</button> 
+                    <button type="button" id="btn-decypher">DESCIFRAR</button>
+                    <p class="txtbnco"> DESCUBRE TU DECLARACION CIFRADA O DESCIFRA UNA DECLARACION  </p>
+                    <textarea  id="txt-answer" class="texto" placeholder="Texto Cifrado!"></textarea> 
+                    <button onclick="volver" id="volver">VOLVER</button> <a href="index.html"></a>
+         
                    
                    
                   </form> 

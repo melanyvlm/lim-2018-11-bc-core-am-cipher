@@ -1,34 +1,32 @@
 
-const cypher = document.getElementById("cypher");  
-const decypher= document.getElementById("decypher");
-const clickea = document.getElementById("clickea");
+const cypher = document.getElementById("btn-cypher");  
+const decypher= document.getElementById("btn-decypher");
+const btnexpress = document.getElementById("btn-express");
 
-clickea.addEventListener("click", () => {
-    document.getElementById("dvpgnicio").style.display= 'none' ;
-    document.getElementById("dvpreguntas").style.display= 'block' ;
-    
-
+//Boton para entrar a la página interactiva
+btnexpress.addEventListener("click", () => {
+    document.getElementById("intropage").style.display= 'none' ;
+    document.getElementById("form-express").style.display= 'block' ;
 });
 
-
+//Boton de cifrado
  cypher.addEventListener("click" , () => {
-     const escribeMsj =document.getElementById("escribeMsj").value;
-     const offset1 = parseInt(document.getElementById("num1").value);
-     const resultado = cipher.encode(escribeMsj, offset1);
-    //  respuesta.innerHTML= (escribeMsj); 
-     document.getElementById("respuesta").innerHTML =resultado;
+     const txtanswer = document.getElementById("txt-initial").value;
+     const offset = parseInt(document.getElementById("offset-input").value);
+     const resultado = cipher.encode(txtanswer, offset);
+     document.getElementById("txt-answer").innerHTML =resultado;
 
  });
 
+// Boton de decifrado
   decypher.addEventListener("click", () => {
 
-     const escribeMsj =document.getElementById("escribeMsj").value;
-     const offset1 = parseInt(document.getElementById("num1").value);
-     const resultado = cipher.decode(escribeMsj, offset1);
-     document.getElementById("respuesta").innerHTML =resultado;
+     const txtanswer =document.getElementById("txt-initial").value;
+     const offset = parseInt(document.getElementById("offset-input").value);
+     const resultado = cipher.decode(txtanswer, offset);
+     document.getElementById("txt-answer").innerHTML =resultado;
 });
 
- // Boton de empezar para dirigirse a ingresar el texto y cifrado
 
 
 
