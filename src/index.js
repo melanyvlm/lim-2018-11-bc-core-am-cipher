@@ -13,7 +13,7 @@ btnexpress.addEventListener("click", () => {
  cypher.addEventListener("click" , () => {
      const txtanswer = document.getElementById("txt-initial").value;
      const offset = parseInt(document.getElementById("offset-input").value);
-     const resultado = cipher.encode(txtanswer, offset);
+     const resultado = cipher.encode(offset,txtanswer);
      document.getElementById("txt-answer").innerHTML =resultado;
 
  });
@@ -23,7 +23,7 @@ btnexpress.addEventListener("click", () => {
 
      const txtanswer =document.getElementById("txt-initial").value;
      const offset = parseInt(document.getElementById("offset-input").value);
-     const resultado = cipher.decode(txtanswer, offset);
+     const resultado = cipher.decode(offset,txtanswer);
      document.getElementById("txt-answer").innerHTML =resultado;
 });
 
