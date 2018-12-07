@@ -2,7 +2,7 @@ window.cipher = {
   encode: function (offset,text){
     let resultado;
     let codigoAc;
-    let resultado;
+  
   
     let textoCifrado= "";
     for ( let i =0; i <text.length; i++)
